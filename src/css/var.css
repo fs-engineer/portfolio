@@ -1,0 +1,8 @@
+:root {
+  --main-bg-color: #2a2a2a;
+  --second-bg-color: #202020;
+  --line-color: rgba(102, 102, 102, 0.3);
+
+  --main-font: 'Oswald', sans-serif;
+  --secont-font: 'Raleway', sans-serif;
+}
