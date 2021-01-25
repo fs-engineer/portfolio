@@ -1,7 +1,9 @@
+import Banner from '../components/Banner/Banner';
+
 export default function HomeView() {
   return (
-    <main>
-      <h2>mainView</h2>
-    </main>
+    <div>
+      <Banner />
+    </div>
   );
 }

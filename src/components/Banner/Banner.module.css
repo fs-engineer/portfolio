@@ -1,0 +1,42 @@
+.bannerSection {
+  background-color: var(--second-bg-color);
+}
+
+.topPoligons {
+  fill: var(--main-bg-color);
+  transform: rotateZ(180deg);
+}
+.bottomPoligons {
+  fill: var(--main-bg-color);
+}
+.secondTitle {
+  font-weight: 200;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 10px;
+  font-family: var(--main-font);
+  font-stretch: 50%;
+}
+.mainTitle {
+  font-size: 60px;
+  font-family: var(--main-font);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.contactBtn {
+  font-family: var(--main-font);
+  font-weight: 200;
+  color: var(--white-color);
+  background-color: transparent;
+  height: 50px;
+  line-height: 47px;
+  font-size: 16px;
+  border: 1px solid var(--button-border-color);
+  padding: 0 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-radius: 50px;
+  transition: all 0.3s;
+}

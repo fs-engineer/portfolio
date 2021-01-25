@@ -1,7 +1,10 @@
 :root {
+  --white-color: #ffffff;
   --main-bg-color: #2a2a2a;
   --second-bg-color: #202020;
   --line-color: rgba(102, 102, 102, 0.3);
+  --burger-bg-color: #202020;
+  --button-border-color: rgba(102, 102, 102, 0.8);
 
   --main-font: 'Oswald', sans-serif;
   --secont-font: 'Raleway', sans-serif;
