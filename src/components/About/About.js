@@ -10,7 +10,7 @@ export default function About() {
         <div className={s.aboutWrapper}>
           <div className={s.imageBlock}>
             <div className={s.aboutImage}>
-              <img src={aboutImage} alt="" />
+              <img className={s.img} src={aboutImage} alt="" />
             </div>
           </div>
           <div className={s.textBlock}>
@@ -31,7 +31,7 @@ export default function About() {
           </div>
         </div>
       </Container>
-      <Polygons color={'bottomPoligons--dark'} />
+      <Polygons color={'bottomPolygons--dark'} />
     </section>
   );
 }

@@ -45,8 +45,8 @@
 .secondTitle::before {
   content: '';
   position: absolute;
-  top: 50%;
-  left: 335px;
+  top: 30px;
+  left: 115px;
   display: block;
   width: 60px;
   height: 1px;
@@ -129,6 +129,10 @@
   }
   .secondTitle {
     font-size: 18px;
+  }
+  .secondTitle::before {
+    top: 50%;
+    left: 335px;
   }
 }
 

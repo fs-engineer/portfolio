@@ -8,12 +8,14 @@ import Logo from '../Logo/Logo';
 export default function Navigations() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header>
+    <header className={s.header}>
       <Container>
         <nav className={s.nav}>
-          <Logo />
-          <NavMenu onOpenMenu={setIsOpen} isOpen={isOpen} />
-          <Burger onOpenMenu={setIsOpen} isOpen={isOpen} />
+          <div className={s.fixedLayer}>
+            <Logo />
+            <NavMenu onOpenMenu={setIsOpen} isOpen={isOpen} />
+            <Burger onOpenMenu={setIsOpen} isOpen={isOpen} />
+          </div>
         </nav>
       </Container>
     </header>

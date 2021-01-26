@@ -8,12 +8,12 @@ import slideImage from '../../image/slide.jpg';
 export default function Hero() {
   return (
     <section className={s.heroSection}>
-      <Polygons color={'topPoligons'} />
+      <Polygons color={'topPolygons'} />
       <Container>
         <div className={s.heroTextWrapper}>
           <h2 className={s.secondTitle}>i am vadym yevlanov</h2>
 
-          <h1 className={s.mainTitle}>full stack developer</h1>
+          <h1 className={s.mainTitle}>full-stack web developer</h1>
           <button className={s.contactBtn} type="button">
             contact me
           </button>
@@ -40,7 +40,7 @@ export default function Hero() {
         </div>
       </Container>
 
-      <Polygons color={'bottomPoligons'} />
+      <Polygons color={'bottomPolygons'} />
     </section>
   );
 }
