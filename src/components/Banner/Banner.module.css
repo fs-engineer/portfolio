@@ -1,5 +1,18 @@
 .bannerSection {
+  position: relative;
   background-color: var(--second-bg-color);
+  text-transform: uppercase;
+  height: 90vh;
+}
+.bannerSection::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 2%;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: var(--line-color);
 }
 
 .topPoligons {
@@ -7,21 +20,23 @@
   transform: rotateZ(180deg);
 }
 .bottomPoligons {
+  position: absolute;
+  bottom: 0;
   fill: var(--main-bg-color);
 }
 .secondTitle {
   font-weight: 200;
-  font-size: 18px;
-  text-align: center;
+  font-size: 12px;
   letter-spacing: 10px;
   font-family: var(--main-font);
   font-stretch: 50%;
+  margin-bottom: 30px;
 }
 .mainTitle {
-  font-size: 60px;
+  font-size: 30px;
   font-family: var(--main-font);
-  text-transform: uppercase;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .contactBtn {
@@ -38,5 +53,70 @@
   letter-spacing: 1px;
   display: inline-block;
   border-radius: 50px;
+  cursor: pointer;
   transition: all 0.3s;
+}
+.contactBtn:hover {
+  background-color: #ddd;
+  color: #333;
+}
+.socialLink {
+  position: absolute;
+  top: 80vh;
+}
+.socialLink::before {
+  content: '';
+  width: 1px;
+  height: 50px;
+  background: hsla(0, 0%, 49%, 0.4);
+  position: absolute;
+  left: 8px;
+  top: -70px;
+}
+.socialLink::after {
+  font-family: var(--main-font);
+  color: #888;
+  content: 'SOCIAL';
+  position: absolute;
+  left: -28px;
+  top: -135px;
+  letter-spacing: 5px;
+  transform: rotate(-90deg);
+}
+.socialLink > ul:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.speciality {
+  display: none;
+  position: absolute;
+  bottom: 50px;
+  right: 30px;
+  transform: rotateZ(-12deg);
+}
+
+@media (min-width: 768px) {
+  .mainTitle {
+    font-size: 60px;
+  }
+  .secondTitle {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 990px) {
+  .speciality {
+    display: block;
+  }
+}
+
+@media (min-width: 1280px) {
+  .speciality {
+    bottom: 70px;
+  }
+}
+@media (min-width: 1440px) {
+  .speciality {
+    bottom: 90px;
+  }
 }

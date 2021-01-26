@@ -8,20 +8,22 @@
   display: block;
   position: absolute;
   top: 0;
-  height: 100vh;
+  height: 3000px;
+  width: 1px;
 
   background-color: var(--line-color);
   z-index: 10;
 }
 .wrapper::before {
-  left: 1%;
+  left: 2%;
 }
 .wrapper::after {
-  right: 1%;
+  right: 2%;
 }
 
 .container {
-  position: relative;
+  margin: 0 auto;
+  max-width: 90%;
 }
 
 @media (min-width: 1024px) {
@@ -30,5 +32,8 @@
   }
   .wrapper::after {
     right: 16%;
+  }
+  .container {
+    max-width: 65%;
   }
 }
