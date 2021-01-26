@@ -8,7 +8,7 @@
   display: block;
   position: absolute;
   top: 0;
-  height: 3000px;
+  height: 2520px;
   width: 1px;
 
   background-color: var(--line-color);
@@ -28,12 +28,28 @@
 
 @media (min-width: 1024px) {
   .wrapper::before {
-    left: 16%;
+    left: 10%;
   }
   .wrapper::after {
-    right: 16%;
+    right: 10%;
   }
   .container {
     max-width: 65%;
+  }
+}
+@media (min-width: 1280px) {
+  .wrapper::before {
+    left: 10%;
+  }
+  .wrapper::after {
+    right: 10%;
+  }
+}
+@media (min-width: 1440px) {
+  .wrapper::before {
+    left: 12%;
+  }
+  .wrapper::after {
+    right: 12%;
   }
 }

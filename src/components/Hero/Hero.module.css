@@ -15,13 +15,11 @@
   background-color: var(--line-color);
 }
 .heroSlideImage {
-  display: none;
   position: absolute;
   width: 250px;
-  top: 170px;
-  right: 250px;
+  top: 220px;
+  right: 50px;
   pointer-events: none;
-  animation: slide 25s 2s alternate infinite linear;
 }
 
 @keyframes slide {
@@ -91,6 +89,7 @@
 .socialLink {
   position: absolute;
   top: 75vh;
+  z-index: 20;
 }
 .socialLink::before {
   content: '';
@@ -114,7 +113,9 @@
 .socialLink > ul:not(:last-child) {
   margin-bottom: 10px;
 }
-
+.socialItem:not(:last-child) {
+  margin-bottom: 5px;
+}
 .speciality {
   display: none;
   position: absolute;
@@ -142,6 +143,9 @@
   }
   .heroSlideImage {
     display: block;
+    top: 170px;
+    right: 250px;
+    animation: slide 25s 2s alternate infinite linear;
   }
 }
 
@@ -153,6 +157,7 @@
     bottom: 70px;
   }
   .heroSlideImage {
+    top: 220px;
     width: 300px;
     right: 350px;
   }
@@ -162,6 +167,7 @@
     bottom: 90px;
   }
   .heroSlideImage {
+    top: 170px;
     width: 350px;
     right: 450px;
   }

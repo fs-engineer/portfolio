@@ -3,6 +3,7 @@ import Polygons from '../layout/Polygons';
 import s from './Hero.module.css';
 import { RiLinkedinFill } from 'react-icons/ri';
 import { AiFillGithub } from 'react-icons/ai';
+import { FaTelegramPlane } from 'react-icons/fa';
 import slideImage from '../../image/slide.jpg';
 
 export default function Hero() {
@@ -23,17 +24,22 @@ export default function Hero() {
         </div>
         <div className={s.socialLink}>
           <ul>
-            <li></li>
-            <li>
+            <li className={s.socialItem}>
               <a href="https://www.linkedin.com/in/vadym-yevlanov/">
-                <RiLinkedinFill />
+                <RiLinkedinFill size="20" />
+              </a>
+            </li>
+            <li className={s.socialItem}>
+              <a href="https://github.com/Google-Barma">
+                <AiFillGithub size="20" />
+              </a>
+            </li>
+            <li className={s.socialItem}>
+              <a href="@barma_de_ley">
+                <FaTelegramPlane size="20" />
               </a>
             </li>
           </ul>
-
-          <a href="https://github.com/Google-Barma">
-            <AiFillGithub />
-          </a>
         </div>
         <div className={s.speciality}>
           <p>frontend and backend developer</p>
