@@ -14,7 +14,8 @@
 .menuOpen {
   position: fixed;
   top: 200px;
-  right: 300px;
+  right: -200px;
+  transform: translateX(-300px);
   text-align: right;
   padding: 20px;
   background-color: var(--navMenu-bg-color);
@@ -34,6 +35,6 @@
   color: var(--white-color);
   background-color: transparent;
   border: none;
-  outline: none;
+  outline-color: var(--line-color);
   cursor: pointer;
 }
