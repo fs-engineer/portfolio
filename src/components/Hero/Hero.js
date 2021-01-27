@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import Container from '../layout/Container';
 import Polygons from '../layout/Polygons';
 import s from './Hero.module.css';
@@ -16,9 +17,9 @@ export default function Hero() {
           <h2 className={s.secondTitle}>i am vadym yevlanov</h2>
 
           <h1 className={s.mainTitle}>full-stack web developer</h1>
-          <button className={s.contactBtn} type="button">
+          <NavLink className="button" type="NavLink" to="/contacts">
             contact me
-          </button>
+          </NavLink>
         </div>
         <div className={s.heroSlideImage}>
           <img src={slideImage} alt="" />

@@ -55,6 +55,12 @@ li {
   list-style: none;
 }
 
+.section {
+  position: relative;
+  background-color: var(--second-bg-color);
+  height: 100vh;
+}
+
 .topPolygons {
   fill: var(--main-bg-color);
   transform: rotateZ(180deg);
@@ -74,4 +80,25 @@ li {
   bottom: 0;
   left: 0;
   fill: var(--second-bg-color);
+}
+.button {
+  font-family: var(--main-font);
+  font-weight: 200;
+  color: var(--white-color);
+  background-color: transparent;
+  height: 50px;
+  line-height: 47px;
+  font-size: 16px;
+  border: 1px solid var(--button-border-color);
+  padding: 0 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.button:hover {
+  background-color: #ddd;
+  color: #333;
 }

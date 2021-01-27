@@ -1,5 +1,28 @@
-.section {
-  position: relative;
-  background-color: var(--second-bg-color);
-  height: 100vh;
+.form {
+  margin: 0 auto;
+  max-width: 300px;
+  font-family: var(--secont-font);
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+.inputBlock {
+  display: grid;
+  grid-template-columns: 1 1fr;
+}
+.input {
+  padding: 5px 5px 5px 15px;
+
+  background-color: var(--input-bg-color);
+  border: none;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.textArea {
+  padding: 5px 5px 5px 15px;
+  width: 100%;
+  background-color: var(--input-bg-color);
+  border: none;
+  resize: none;
+  margin-bottom: 15px;
 }

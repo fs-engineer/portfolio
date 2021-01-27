@@ -1,6 +1,6 @@
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import Container from '../layout/Container';
-import Polygons from '../layout/Polygons';
 import s from './ContactForm.module.css';
 
 export default function ContactForm() {
@@ -39,13 +39,13 @@ export default function ContactForm() {
   };
 
   return (
-    <section className={s.section}>
-      <Polygons color="topPolygons" />
-      <Container>
-        <form
-          className={s.form}
-          onSubmit={e => handleSubmit(e, name, email, text, subject, lastName)}
-        >
+    <Container>
+      <h2 className={s.title}>easy contact with me</h2>
+      <form
+        className={s.form}
+        onSubmit={e => handleSubmit(e, name, email, text, subject, lastName)}
+      >
+        <div className={s.inputBlock}>
           <label htmlFor="name"></label>
           <input
             className={s.input}
@@ -54,6 +54,8 @@ export default function ContactForm() {
             id="name"
             value={name}
             onChange={handleChange}
+            placeholder="your name"
+            required
           />
           <label htmlFor="lastName"></label>
           <input
@@ -63,14 +65,19 @@ export default function ContactForm() {
             id="lastName"
             value={lastName}
             onChange={handleChange}
+            placeholder="your last name"
           />
+
           <label htmlFor="email"></label>
           <input
+            className={s.input}
             type="email"
             name="email"
             id="email"
             value={email}
             onChange={handleChange}
+            required
+            placeholder="your email"
           />
           <label htmlFor="subject"></label>
           <input
@@ -80,20 +87,24 @@ export default function ContactForm() {
             id="subject"
             value={subject}
             onChange={handleChange}
+            placeholder="subject"
           />
-          <textarea
-            className={s.textArea}
-            name="textArea"
-            id="textArea"
-            cols="30"
-            rows="10"
-            value={text}
-            onChange={handleChange}
-          ></textarea>
-          <button type="submit">submit</button>
-        </form>
-      </Container>
-      <Polygons color="bottomPolygons" />
-    </section>
+        </div>
+        <textarea
+          className={s.textArea}
+          name="textArea"
+          id="textArea"
+          cols="30"
+          rows="10"
+          value={text}
+          onChange={handleChange}
+          placeholder="enter your message"
+          required
+        ></textarea>
+        <button className="button" type="submit">
+          submit
+        </button>
+      </form>
+    </Container>
   );
 }
