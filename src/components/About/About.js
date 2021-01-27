@@ -28,6 +28,9 @@ export default function About() {
               ipsum accusamus deserunt fugiat, voluptas suscipit eos, sit id.
               Odit rem quos animi dicta voluptatem esse ipsum inventore nihil.
             </p>
+            <button type="button" className="button">
+              download resume
+            </button>
           </div>
         </div>
       </Container>
