@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
 import Container from '../layout/Container';
 import s from './ContactForm.module.css';
 
@@ -40,7 +39,7 @@ export default function ContactForm() {
 
   return (
     <Container>
-      <h2 className={s.title}>easy contact with me</h2>
+      <h2 className={s.title}>easy way to contact me</h2>
       <form
         className={s.form}
         onSubmit={e => handleSubmit(e, name, email, text, subject, lastName)}

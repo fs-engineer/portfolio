@@ -1,0 +1,25 @@
+.address {
+  font-style: normal;
+  margin: 0 auto 30px;
+  max-width: 260px;
+}
+.subscription {
+  margin-bottom: 30px;
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.subTitle {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.text:not(:last-child) {
+  margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .address {
+    margin-bottom: 0;
+  }
+}

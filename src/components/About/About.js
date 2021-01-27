@@ -14,7 +14,7 @@ export default function About() {
             </div>
           </div>
           <div className={s.textBlock}>
-            <h2 className={s.title}>About me</h2>
+            <h2 className={s.title}>About Me</h2>
             <p className={s.aboutSubscription}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
               optio debitis eaque aspernatur eius reprehenderit maxime, culpa

@@ -31,7 +31,7 @@ export default function NavMenu({ onOpenMenu, isOpen }) {
       </button>
       <ul className={s.list}>
         <li className={s.item}>
-          <NavLink to="/">
+          <NavLink to="/" onClick={() => onOpenMenu(false)}>
             <div className={s.imgWrapper}>
               <div className={s.imgOverlay}>
                 <p className={s.menuText}>home</p>
@@ -41,7 +41,9 @@ export default function NavMenu({ onOpenMenu, isOpen }) {
           </NavLink>
         </li>
         <li className={s.item}>
-          <NavLink to="/portfolio">Porfolio</NavLink>
+          <NavLink to="/portfolio" onClick={() => onOpenMenu(false)}>
+            Porfolio
+          </NavLink>
         </li>
         <li className={s.item}>
           <div className={s.imgWrapper}>
@@ -61,7 +63,9 @@ export default function NavMenu({ onOpenMenu, isOpen }) {
         </li>
 
         <li className={s.item}>
-          <NavLink to="/contacts">Contacts</NavLink>
+          <NavLink to="/contacts" onClick={() => onOpenMenu(false)}>
+            Contacts
+          </NavLink>
         </li>
       </ul>
     </div>
