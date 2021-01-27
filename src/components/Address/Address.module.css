@@ -8,6 +8,9 @@
   font-family: var(--secont-font);
   letter-spacing: 1px;
 }
+.justDoIt {
+  color: var(--main-accent-color);
+}
 .title {
   text-align: center;
   text-transform: uppercase;
@@ -40,5 +43,10 @@
   }
   .text {
     font-size: 20px;
+  }
+  @media (min-width: 1280px) {
+    .address {
+      max-width: 400px;
+    }
   }
 }

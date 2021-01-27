@@ -29,7 +29,7 @@ export default function About() {
               Odit rem quos animi dicta voluptatem esse ipsum inventore nihil.
             </p>
             <button type="button" className="button">
-              download resume
+              download cv
             </button>
           </div>
         </div>

@@ -7,8 +7,9 @@ export default function Address() {
       <address className={s.address}>
         <h2 className={s.title}>my contacts</h2>
         <p className={s.subscription}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-          natus ab sunt quam et assumenda.
+          Are you working on something great? I would love to help make it
+          happen! Drop me a letter and start your project right now!
+          <span className={s.justDoIt}> Just do it.</span>
         </p>
         <h3 className={s.subTitle}>Address</h3>
         <p className={s.text}>Ukraine, Zhytomyr</p>

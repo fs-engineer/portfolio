@@ -8,7 +8,7 @@ export default function Burger({ onOpenMenu, isOpen }) {
         type="button"
         onClick={() => onOpenMenu(!isOpen)}
       >
-        <span></span>
+        <span className={s.line}></span>
       </button>
     </div>
   );

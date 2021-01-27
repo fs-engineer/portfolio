@@ -15,9 +15,9 @@
   outline-color: var(--white-color);
 }
 
-span,
-span::after,
-span::before {
+.line,
+.line::after,
+.line::before {
   position: absolute;
   content: '';
   right: 0;
@@ -27,17 +27,17 @@ span::before {
   border-radius: 5px;
   background-color: var(--white-color);
 }
-span {
+.line {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 25px;
   outline: none;
 }
-span::after {
+.line::after {
   top: -12px;
 }
-span::before {
+.line::before {
   bottom: -12px;
   width: 20px;
 }

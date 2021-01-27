@@ -1,17 +1,23 @@
 .title {
-  position: absolute;
+  position: relative;
   top: -10px;
   left: 50%;
+  font-size: 30px;
   transform: translate(-50%, 15%);
   font-family: var(--main-font);
   font-weight: 200;
   text-transform: uppercase;
+  color: var(--main-accent-color);
 }
-
-.logoBg {
-  position: relative;
-  width: 120px;
+.title::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-20px, 15px) rotate(-15deg);
+  display: block;
+  width: 130px;
   height: 20px;
-  text-align: center;
   background-color: var(--burger-bg-color);
+  z-index: -1;
 }
