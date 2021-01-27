@@ -34,7 +34,6 @@ export default function MyService() {
             autem eum. Eius, ea esse?
           </p>
         </li>
-
         <li className={s.item}>
           <h3 className={s.itemTitle}>React</h3>
           <div className={s.imageWrapper}>
@@ -80,7 +79,7 @@ export default function MyService() {
           </p>
         </li>
       </ul>
-      <Polygons color={'bottomPolygons  '} />
+      <Polygons color={'bottomPolygons'} />
     </section>
   );
 }

@@ -25,17 +25,29 @@ export default function Hero() {
         <div className={s.socialLink}>
           <ul>
             <li className={s.socialItem}>
-              <a href="https://www.linkedin.com/in/vadym-yevlanov/">
+              <a
+                href="https://www.linkedin.com/in/vadym-yevlanov/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <RiLinkedinFill size="20" />
               </a>
             </li>
             <li className={s.socialItem}>
-              <a href="https://github.com/Google-Barma">
+              <a
+                href="https://github.com/Google-Barma"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <AiFillGithub size="20" />
               </a>
             </li>
             <li className={s.socialItem}>
-              <a href="@barma_de_ley">
+              <a
+                href="https://telegram.im/@barma_de_ley"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaTelegramPlane size="20" />
               </a>
             </li>

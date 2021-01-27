@@ -8,7 +8,7 @@
   display: block;
   position: absolute;
   top: 0;
-  height: 2520px;
+  height: 3950px;
   width: 1px;
 
   background-color: var(--line-color);
@@ -26,6 +26,13 @@
   max-width: 90%;
 }
 
+@media (min-width: 768px) {
+  .wrapper::before,
+  .wrapper::after {
+    height: 2900px;
+  }
+}
+
 @media (min-width: 1024px) {
   .wrapper::before {
     left: 10%;
@@ -36,6 +43,10 @@
   .container {
     max-width: 65%;
   }
+  .wrapper::before,
+  .wrapper::after {
+    height: 2500px;
+  }
 }
 @media (min-width: 1280px) {
   .wrapper::before {
@@ -44,6 +55,10 @@
   .wrapper::after {
     right: 10%;
   }
+  .wrapper::before,
+  .wrapper::after {
+    height: 2350px;
+  }
 }
 @media (min-width: 1440px) {
   .wrapper::before {
@@ -51,5 +66,9 @@
   }
   .wrapper::after {
     right: 12%;
+  }
+  .wrapper::before,
+  .wrapper::after {
+    height: 2500px;
   }
 }
