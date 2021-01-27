@@ -4,6 +4,7 @@ import s from './Hero.module.css';
 import { RiLinkedinFill } from 'react-icons/ri';
 import { AiFillGithub } from 'react-icons/ai';
 import { FaTelegramPlane } from 'react-icons/fa';
+import { TiSocialInstagram } from 'react-icons/ti';
 import slideImage from '../../image/slide.jpg';
 
 export default function Hero() {
@@ -49,6 +50,15 @@ export default function Hero() {
                 rel="noreferrer"
               >
                 <FaTelegramPlane size="20" />
+              </a>
+            </li>
+            <li className={s.socialItem}>
+              <a
+                href="http://instagram.com/barma_de_ley"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <TiSocialInstagram size="20" />
               </a>
             </li>
           </ul>

@@ -1,10 +1,11 @@
 .menuClose {
   position: fixed;
-  top: 200px;
+  top: 130px;
   right: -370px;
   text-align: right;
   padding: 20px;
   background-color: var(--navMenu-bg-color);
+
   border: 1px solid var(--line-color);
   border-radius: 5px;
   font-size: 30px;
@@ -13,12 +14,12 @@
 }
 .menuOpen {
   position: fixed;
-  top: 200px;
-  right: -200px;
-  transform: translateX(-300px);
+  top: 130px;
+  right: 0;
+  transform: translateX(-40px);
   text-align: right;
   padding: 20px;
-  background-color: var(--navMenu-bg-color);
+  background-color: rgba(24, 24, 24, 1);
   border: 1px solid var(--line-color);
   border-radius: 5px;
   font-size: 30px;
@@ -64,4 +65,16 @@
 }
 .menuText {
   text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .menuOpen {
+    background-color: var(--navMenu-bg-color);
+  }
+}
+
+@media (min-width: 1024px) {
+  .menuOpen {
+    transform: translateX(-100px);
+  }
 }

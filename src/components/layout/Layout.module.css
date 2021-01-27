@@ -1,23 +1,27 @@
 .wrapper {
   position: relative;
 }
-
-.wrapper::before,
-.wrapper::after {
+.lines {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.lines::before,
+.lines::after {
   content: '';
   display: block;
   position: absolute;
   top: 0;
-  height: 3950px;
+  height: 100%;
   width: 1px;
 
   background-color: var(--line-color);
   z-index: 10;
 }
-.wrapper::before {
+.lines::before {
   left: 2%;
 }
-.wrapper::after {
+.lines::after {
   right: 2%;
 }
 
@@ -26,49 +30,30 @@
   max-width: 90%;
 }
 
-@media (min-width: 768px) {
-  .wrapper::before,
-  .wrapper::after {
-    height: 2900px;
-  }
-}
-
 @media (min-width: 1024px) {
-  .wrapper::before {
+  .lines::before {
     left: 10%;
   }
-  .wrapper::after {
+  .lines::after {
     right: 10%;
   }
   .container {
     max-width: 65%;
   }
-  .wrapper::before,
-  .wrapper::after {
-    height: 2500px;
-  }
 }
 @media (min-width: 1280px) {
-  .wrapper::before {
+  .lines::before {
     left: 10%;
   }
-  .wrapper::after {
+  .lines::after {
     right: 10%;
-  }
-  .wrapper::before,
-  .wrapper::after {
-    height: 2350px;
   }
 }
 @media (min-width: 1440px) {
-  .wrapper::before {
+  .lines::before {
     left: 12%;
   }
-  .wrapper::after {
+  .lines::after {
     right: 12%;
-  }
-  .wrapper::before,
-  .wrapper::after {
-    height: 2500px;
   }
 }

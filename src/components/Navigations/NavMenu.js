@@ -1,6 +1,7 @@
 import s from './NavMenu.module.css';
 import { AiOutlineCloseCircle } from 'react-icons/ai';
 import { useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 import homeImg from '../../image/nav-menu/home.jpg';
 import aboutImg from '../../image/nav-menu/about.jpg';
 import myServiceImg from '../../image/nav-menu/my-service.jpg';
@@ -30,14 +31,18 @@ export default function NavMenu({ onOpenMenu, isOpen }) {
       </button>
       <ul className={s.list}>
         <li className={s.item}>
-          <div className={s.imgWrapper}>
-            <div className={s.imgOverlay}>
-              <p className={s.menuText}>home</p>
+          <NavLink to="/">
+            <div className={s.imgWrapper}>
+              <div className={s.imgOverlay}>
+                <p className={s.menuText}>home</p>
+              </div>
+              <img src={homeImg} alt="home" />
             </div>
-            <img src={homeImg} alt="home" />
-          </div>
+          </NavLink>
         </li>
-        <li className={s.item}>Porfolio</li>
+        <li className={s.item}>
+          <NavLink to="/portfolio">Porfolio</NavLink>
+        </li>
         <li className={s.item}>
           <div className={s.imgWrapper}>
             <div className={s.imgOverlay}>
@@ -55,7 +60,9 @@ export default function NavMenu({ onOpenMenu, isOpen }) {
           </div>
         </li>
 
-        <li className={s.item}>Contacts</li>
+        <li className={s.item}>
+          <NavLink to="/contacts">Contacts</NavLink>
+        </li>
       </ul>
     </div>
   );
