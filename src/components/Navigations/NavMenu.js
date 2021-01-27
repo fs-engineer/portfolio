@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 import homeImg from '../../image/nav-menu/home.jpg';
 import aboutImg from '../../image/nav-menu/about.jpg';
 import myServiceImg from '../../image/nav-menu/my-service.jpg';
+import contactsImg from '../../image/nav-menu/contacts.jpg';
 
 export default function NavMenu({ onOpenMenu, isOpen }) {
   useEffect(() => {
@@ -64,7 +65,12 @@ export default function NavMenu({ onOpenMenu, isOpen }) {
 
         <li className={s.item}>
           <NavLink to="/contacts" onClick={() => onOpenMenu(false)}>
-            Contacts
+            <div className={s.imgWrapper}>
+              <div className={s.imgOverlay}>
+                <p className={s.menuText}>contacts</p>
+              </div>
+              <img src={contactsImg} alt="contacts" />
+            </div>
           </NavLink>
         </li>
       </ul>

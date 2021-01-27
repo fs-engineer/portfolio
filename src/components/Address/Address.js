@@ -13,9 +13,15 @@ export default function Address() {
         <h3 className={s.subTitle}>Address</h3>
         <p className={s.text}>Ukraine, Zhytomyr</p>
         <h3 className={s.subTitle}>phone</h3>
-        <p className={s.text}>+38(063)-070-70-70</p>
+        <p className={s.text}>
+          <a href="tel:+38(063)-070-70-70">+38(063)-070-70-70</a>
+        </p>
         <h3 className={s.subTitle}>email</h3>
-        <p className={s.text}>vadym.yevlanov@gmail.com</p>
+        <p className={s.text}>
+          <a href="mailto: vadym.yevlanov@gmail.com">
+            vadym.yevlanov@gmail.com
+          </a>
+        </p>
       </address>
     </Container>
   );

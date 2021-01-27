@@ -6,7 +6,7 @@
   padding: 50px 0;
 }
 .map {
-  position: relative;
+  /* position: relative; */
   z-index: 10;
   filter: grayscale(100%) brightness(60%);
 }

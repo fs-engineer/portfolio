@@ -5,6 +5,8 @@
 }
 .subscription {
   margin-bottom: 30px;
+  font-family: var(--secont-font);
+  letter-spacing: 1px;
 }
 .title {
   text-align: center;
@@ -21,5 +23,22 @@
 @media (min-width: 768px) {
   .address {
     margin-bottom: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .address {
+    max-width: 300px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .subscription {
+    font-size: 20px;
+  }
+  .subTitle {
+    font-size: 22px;
+  }
+  .text {
+    font-size: 20px;
   }
 }
