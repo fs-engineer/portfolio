@@ -5,10 +5,9 @@
   text-align: right;
   padding: 20px;
   background-color: var(--navMenu-bg-color);
-
   border: 1px solid var(--line-color);
   border-radius: 5px;
-  font-size: 30px;
+
   z-index: 999;
   transition: all 0.3s linear;
 }
@@ -22,7 +21,7 @@
   background-color: rgba(24, 24, 24, 1);
   border: 1px solid var(--line-color);
   border-radius: 5px;
-  font-size: 30px;
+
   z-index: 999;
   transition: all 0.3s linear;
 }
@@ -65,6 +64,7 @@
 }
 .menuText {
   text-transform: uppercase;
+  font-size: 50px;
 }
 
 @media (min-width: 768px) {

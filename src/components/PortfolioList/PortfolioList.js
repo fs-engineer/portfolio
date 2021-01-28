@@ -12,11 +12,6 @@ export default function PortfolioList() {
     setDataBase(db);
   }, []);
 
-  // const onj = dataBase.map(item => {
-  //   const arr =
-  //   console.log(arr);
-  // });
-
   return (
     <Container>
       <h2 className={s.title}>my finished work</h2>

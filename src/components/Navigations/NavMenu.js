@@ -6,6 +6,7 @@ import homeImg from '../../image/nav-menu/home.jpg';
 import aboutImg from '../../image/nav-menu/about.jpg';
 import myServiceImg from '../../image/nav-menu/my-service.jpg';
 import contactsImg from '../../image/nav-menu/contacts.jpg';
+import portfolioImg from '../../image/nav-menu/portfolio.jpg';
 
 export default function NavMenu({ onOpenMenu, isOpen }) {
   useEffect(() => {
@@ -43,24 +44,33 @@ export default function NavMenu({ onOpenMenu, isOpen }) {
         </li>
         <li className={s.item}>
           <NavLink to="/portfolio" onClick={() => onOpenMenu(false)}>
-            Porfolio
+            <div className={s.imgWrapper}>
+              <div className={s.imgOverlay}>
+                <p className={s.menuText}>portfolio</p>
+              </div>
+              <img src={portfolioImg} alt="portfolio" />
+            </div>
           </NavLink>
         </li>
         <li className={s.item}>
-          <div className={s.imgWrapper}>
-            <div className={s.imgOverlay}>
-              <p className={s.menuText}>about</p>
+          <NavLink to="/:id" onClick={() => onOpenMenu(false)}>
+            <div className={s.imgWrapper}>
+              <div className={s.imgOverlay}>
+                <p className={s.menuText}>about</p>
+              </div>
+              <img src={aboutImg} alt="about" />
             </div>
-            <img src={aboutImg} alt="about" />
-          </div>
+          </NavLink>
         </li>
         <li className={s.item}>
-          <div className={s.imgWrapper}>
-            <div className={s.imgOverlay}>
-              <p className={s.menuText}>my service</p>
+          <NavLink to="/" onClick={() => onOpenMenu(false)}>
+            <div className={s.imgWrapper}>
+              <div className={s.imgOverlay}>
+                <p className={s.menuText}>my service</p>
+              </div>
+              <img src={myServiceImg} alt="my service" />
             </div>
-            <img src={myServiceImg} alt="my service" />
-          </div>
+          </NavLink>
         </li>
 
         <li className={s.item}>
