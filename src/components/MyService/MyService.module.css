@@ -90,6 +90,7 @@
 .itemDescription {
   font-family: var(--secont-font);
   letter-spacing: 1px;
+  font-style: italic;
 }
 
 @keyframes rotate {

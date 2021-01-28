@@ -83,6 +83,7 @@
 }
 .aboutSubscription {
   font-family: var(--secont-font);
+  font-style: italic;
   letter-spacing: 3px;
   line-height: 1.45;
 }

@@ -8,6 +8,7 @@
   font-family: var(--secont-font);
   letter-spacing: 1px;
   margin-bottom: 50px;
+  font-style: italic;
 }
 .list {
   position: relative;
@@ -23,9 +24,6 @@
 }
 .item {
   max-width: 300px;
-}
-.itemTitle {
-  text-align: right;
 }
 .item:hover .overlay {
   visibility: visible;
@@ -58,13 +56,48 @@
   width: 100%;
   height: 100%;
 }
+.itemTitle {
+  font-size: 24px;
+  text-align: right;
+  margin-bottom: 5px;
+}
+.date {
+  display: block;
+  font-size: 12px;
+  text-align: right;
+  margin-bottom: 15px;
+}
 .link,
 .content {
   font-family: var(--secont-font);
   font-weight: 200;
 }
+.link {
+  margin-bottom: 5px;
+}
 .content {
   letter-spacing: 1px;
+}
+.stackList {
+  font-size: 12px;
+  /* display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-auto-flow: row;
+  grid-gap: 5px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-align: right;
+  color: var(--main-accent-color);
+  margin-bottom: 15px;
+}
+.stackItem {
+  margin-bottom: 5px;
+}
+.stackItem:not(:last-child) {
+  margin-right: 5px;
 }
 
 @media (min-width: 768px) {
@@ -74,6 +107,9 @@
   }
 }
 @media (min-width: 1280px) {
+  .title {
+    font-size: 55px;
+  }
   .list {
     max-width: 1200px;
     grid-template-columns: repeat(3, 1fr);
