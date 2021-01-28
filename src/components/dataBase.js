@@ -4,11 +4,13 @@ const db = [
     name: 'Portfolio',
     homePage: 'https://gb-portfolio.netlify.app/',
     stack: ['React', 'JSX', 'CSS3-module'],
+    date: 'january, 2021',
   },
   {
     img: '/portfolio/buns.jpg',
     name: 'Between The Buns',
     homePage: 'https://betweenthebuns-666fd.web.app/',
+    date: 'december, 2021',
   },
   {
     img: '/portfolio/nitflix.jpg',

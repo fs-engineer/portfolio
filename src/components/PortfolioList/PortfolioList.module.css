@@ -18,7 +18,7 @@
   justify-content: center;
   justify-items: center;
   grid-template-columns: repeat(1, 1fr);
-  padding-bottom: 50px;
+  padding-bottom: 80px;
   z-index: 1;
 }
 .item {

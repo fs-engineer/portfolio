@@ -24,6 +24,7 @@ export default function PortfolioList() {
               <div className={s.overlay}>
                 <div className={s.innerOverlay}>
                   <h3 className={s.itemTitle}>{name}</h3>
+                  <span className={s.date}></span>
                   <a
                     className={s.link}
                     href={homePage}
