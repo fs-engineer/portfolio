@@ -1,22 +1,19 @@
 .menuClose {
   position: fixed;
-  top: 130px;
+  top: 90px;
   right: -370px;
-  text-align: right;
   padding: 20px;
   background-color: var(--navMenu-bg-color);
   border: 1px solid var(--line-color);
   border-radius: 5px;
-
   z-index: 999;
   transition: all 0.3s linear;
 }
 .menuOpen {
   position: fixed;
-  top: 130px;
+  top: 90px;
   right: 0;
   transform: translateX(-40px);
-  text-align: right;
   padding: 20px;
   background-color: rgba(24, 24, 24, 1);
   border: 1px solid var(--line-color);
