@@ -2,6 +2,7 @@ import Container from '../layout/Container';
 import s from './About.module.css';
 import aboutImage from '../../image/about.jpg';
 import Polygons from '../layout/Polygons';
+import cv from '../../image/cv/cv.pdf';
 
 export default function About() {
   return (
@@ -28,9 +29,9 @@ export default function About() {
               winter, rafting with friends on the river, or just frying steaks
               with my family in my yard.
             </p>
-            <button type="button" className="button">
+            <a href={cv} className="button" target="_blank" rel="noreferrer">
               download cv
-            </button>
+            </a>
           </div>
         </div>
       </Container>
