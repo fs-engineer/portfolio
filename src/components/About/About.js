@@ -5,7 +5,7 @@ import Polygons from '../layout/Polygons';
 
 export default function About() {
   return (
-    <section className={s.aboutSection}>
+    <section className={s.aboutSection} id={'about'}>
       <Container>
         <div className={s.aboutWrapper}>
           <div className={s.imageBlock}>
@@ -14,9 +14,7 @@ export default function About() {
             </div>
           </div>
           <div className={s.textBlock}>
-            <h2 className={s.title} id={'about'}>
-              About Me
-            </h2>
+            <h2 className={s.title}>About Me</h2>
             <p className={s.aboutSubscription}>
               I am a Web Developer located in Zhytomyr, Ukraine. I like
               to resolve design problems, create smart user interface
