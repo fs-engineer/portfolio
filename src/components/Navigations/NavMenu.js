@@ -53,24 +53,24 @@ export default function NavMenu({ onOpenMenu, isOpen }) {
           </NavLink>
         </li>
         <li className={s.item}>
-          <NavLink to="/#about" onClick={() => onOpenMenu(false)}>
+          <a href="/#about" onClick={() => onOpenMenu(false)}>
             <div className={s.imgWrapper}>
               <div className={s.imgOverlay}>
                 <p className={s.menuText}>about</p>
               </div>
               <img src={aboutImg} alt="about" />
             </div>
-          </NavLink>
+          </a>{' '}
         </li>
         <li className={s.item}>
-          <NavLink to="/" onClick={() => onOpenMenu(false)}>
+          <a href="/#myService" onClick={() => onOpenMenu(false)}>
             <div className={s.imgWrapper}>
               <div className={s.imgOverlay}>
                 <p className={s.menuText}>my service</p>
               </div>
               <img src={myServiceImg} alt="my service" />
             </div>
-          </NavLink>
+          </a>
         </li>
 
         <li className={s.item}>

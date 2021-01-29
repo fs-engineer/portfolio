@@ -8,7 +8,7 @@ import { RiDatabase2Fill } from 'react-icons/ri';
 
 export default function MyService() {
   return (
-    <section className={s.section}>
+    <section className={s.section} id="myService">
       <p className={s.titleDescription}>what can I do</p>
       <h2 className={s.sectionTitle}>my service</h2>
       <ul className={s.list}>
