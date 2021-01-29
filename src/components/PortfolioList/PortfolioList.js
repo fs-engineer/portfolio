@@ -12,6 +12,8 @@ export default function PortfolioList() {
     setDataBase(db);
   }, []);
 
+  dataBase.map(({ gang }) => (gang ? console.log(gang) : null));
+
   return (
     <Container>
       <h2 className={s.title}>my finished work</h2>
@@ -22,7 +24,6 @@ export default function PortfolioList() {
             <li key={idx} className={s.item}>
               <div className={s.imageWrapper}>
                 <div className={s.overlay}>
-                  {/* <div className={s.innerOverlay}> */}
                   <h3 className={s.itemTitle}>{name}</h3>
                   <span className={s.date}>{date}</span>
                   <ul className={s.stackList}>
@@ -33,16 +34,18 @@ export default function PortfolioList() {
                     ))}
                   </ul>
                   <p className={s.content}>{comment}</p>
-                  {/* </div> */}
-                  {/* {gang ? <GangList gangList={gang} /> : console.log('no')} */}
-                  <a
-                    className={s.link}
-                    href={homePage}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Demo
-                  </a>
+
+                  {gang ? <GangList gangList={gang} /> : null}
+                  <div className={s.btnWrap}>
+                    <a
+                      className="button"
+                      href={homePage}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Demo
+                    </a>
+                  </div>
                 </div>
                 <img className={s.img} src={img} alt={name} />
               </div>

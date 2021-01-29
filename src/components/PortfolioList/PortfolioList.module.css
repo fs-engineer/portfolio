@@ -74,9 +74,17 @@
 }
 .link {
   margin-bottom: 5px;
+  text-align: right;
+  justify-item: flex-end;
 }
+.btnWrap {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .content {
   letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 .stackList {
   font-size: 12px;
