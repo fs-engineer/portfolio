@@ -1,0 +1,6 @@
+.link {
+  font-size: 14px;
+}
+.item:not(:last-child) {
+  margin-bottom: 5px;
+}

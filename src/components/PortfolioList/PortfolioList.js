@@ -10,9 +10,7 @@ export default function PortfolioList() {
 
   useEffect(() => {
     setDataBase(db);
-  }, []);
-
-  dataBase.map(({ gang }) => (gang ? console.log(gang) : null));
+  }, [setDataBase]);
 
   return (
     <Container>
@@ -33,7 +31,7 @@ export default function PortfolioList() {
                       </li>
                     ))}
                   </ul>
-                  <p className={s.content}>{comment}</p>
+                  <p className={s.content}>{comment ?? comment}</p>
 
                   {gang ? <GangList gangList={gang} /> : null}
                   <div className={s.btnWrap}>

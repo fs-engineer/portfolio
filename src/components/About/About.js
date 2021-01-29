@@ -18,17 +18,17 @@ export default function About() {
               About Me
             </h2>
             <p className={s.aboutSubscription}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-              optio debitis eaque aspernatur eius reprehenderit maxime, culpa
-              minus reiciendis et pariatur molestias laboriosam tempore
-              cupiditate fugiat accusamus consectetur aut earum amet sit soluta
-              sequi?
+              I am a Web Developer located in Zhytomyr, Ukraine. I like
+              to resolve design problems, create smart user interface
+              and imagine useful interaction, developing rich web experiences
+              & web applications.
             </p>
             <p className={s.aboutSubscription}>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum
-              aliquid perferendis asperiores amet eveniet, alias eius odio harum
-              ipsum accusamus deserunt fugiat, voluptas suscipit eos, sit id.
-              Odit rem quos animi dicta voluptatem esse ipsum inventore nihil.
+              I like to turn complex tasks into simple, beautiful and intuitive
+              designs. When I don't code or click on the pixels, you'll find me
+              scampering through the woods with a toy gun, sleeping in a tent in
+              winter, rafting with friends on the river, or just frying steaks
+              with my family in my yard.
             </p>
             <button type="button" className="button">
               download cv
