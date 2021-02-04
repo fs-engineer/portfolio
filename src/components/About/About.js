@@ -6,7 +6,7 @@ import cv from '../../image/cv/cv.pdf';
 
 export default function About() {
   return (
-    <section className={s.aboutSection} id={'about'}>
+    <section className={s.aboutSection} id="about">
       <Container>
         <div className={s.aboutWrapper}>
           <div className={s.imageBlock}>

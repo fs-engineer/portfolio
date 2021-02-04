@@ -60,7 +60,7 @@ export default function NavMenu({ onOpenMenu, isOpen }) {
               </div>
               <img src={aboutImg} alt="about" />
             </div>
-          </a>{' '}
+          </a>
         </li>
         <li className={s.item}>
           <a href="/#myService" onClick={() => onOpenMenu(false)}>

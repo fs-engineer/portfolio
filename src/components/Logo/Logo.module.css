@@ -1,23 +1,14 @@
-.title {
+.logo {
   position: relative;
-  top: -10px;
-  left: 50%;
-  font-size: 30px;
-  transform: translate(-50%, 15%);
-  font-family: var(--main-font);
-  font-weight: 200;
-  text-transform: uppercase;
-  color: var(--main-accent-color);
-}
-.title::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: translate(-20px, 15px) rotate(-15deg);
-  display: block;
-  width: 130px;
-  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--burger-bg-color);
-  z-index: -1;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.logoImage {
+  width: 300px;
+  height: 300px;
 }
