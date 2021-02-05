@@ -23,7 +23,7 @@ export default function ContactForm() {
       case 'subject':
         setSubject(value);
         break;
-      case 'textArea':
+      case 'message':
         setText(value);
         break;
       default:
@@ -31,18 +31,25 @@ export default function ContactForm() {
     }
   };
 
-  const handleSubmit = (e, name, email, text, subject, lastName) => {
-    e.preventDefault();
-    const message = { name, email, text, subject, lastName };
-    console.log(message);
-  };
+  // const handleSubmit = (e, name, lastName, email, subject, text) => {
+  // e.preventDefault();
+  // const message = { name, email, text, subject, lastName };
+  // const parsedMessage = JSON.stringify(message);
+  // axios
+  //   .post('https://formsubmit.co/vad.evlanov@gmail.com', parsedMessage)
+  //   .then(res => console.log(res))
+  //   .catch(error => console.log(error.message));
+  // };
 
   return (
     <Container>
       <h2 className={s.title}>easy way to contact me</h2>
       <form
+        target="_blank"
+        action="https://formsubmit.co/vad.evlanov@gmail.com"
+        method="POST"
         className={s.form}
-        onSubmit={e => handleSubmit(e, name, email, text, subject, lastName)}
+        // onSubmit={e => handleSubmit(e, name, email, text, subject, lastName)}
       >
         <div className={s.inputBlock}>
           <label htmlFor="name"></label>
@@ -91,7 +98,7 @@ export default function ContactForm() {
         </div>
         <textarea
           className={s.textArea}
-          name="textArea"
+          name="message"
           id="textArea"
           cols="30"
           rows="10"

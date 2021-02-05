@@ -5,10 +5,10 @@
   align-items: center;
   background-color: var(--burger-bg-color);
   padding: 7px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .logoImage {
-  width: 300px;
-  height: 300px;
+  width: 40px;
+  height: 40px;
 }

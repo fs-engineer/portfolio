@@ -1,5 +1,6 @@
 import s from './Logo.module.css';
-import logo from '../../image/svg/logo.svg';
+import logo from '../../image/svg/logo-light.svg';
+// import logo from '../../image/svg/logo.svg';
 
 export default function Logo() {
   return (
