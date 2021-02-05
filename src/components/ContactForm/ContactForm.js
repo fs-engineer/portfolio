@@ -32,13 +32,16 @@ export default function ContactForm() {
   };
 
   // const handleSubmit = (e, name, lastName, email, subject, text) => {
-  // e.preventDefault();
-  // const message = { name, email, text, subject, lastName };
-  // const parsedMessage = JSON.stringify(message);
-  // axios
-  //   .post('https://formsubmit.co/vad.evlanov@gmail.com', parsedMessage)
-  //   .then(res => console.log(res))
-  //   .catch(error => console.log(error.message));
+  //   e.preventDefault();
+  //   const message = { name, email, text, subject, lastName };
+  //   const parsedMessage = JSON.stringify(message);
+  //   fetch('https://formsubmit.co/vad.evlanov@gmail.com', {
+  //     method: 'POST',
+  //     data: parsedMessage,
+  //     dataType: 'json',
+  //   })
+  //     .then(res => console.log(res))
+  //     .catch(error => console.log(error.message));
   // };
 
   return (
