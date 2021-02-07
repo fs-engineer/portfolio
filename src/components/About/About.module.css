@@ -66,7 +66,7 @@
   transform: translate(-50%, -50%) rotate(90deg);
 }
 .textBlock:hover .title::after {
-  width: 300px;
+  max-width: 300px;
 }
 .title {
   font-size: 40px;
@@ -75,11 +75,11 @@
 .title::after {
   content: '';
   display: block;
-  width: 220px;
+  max-width: 220px;
   height: 1px;
   background-color: var(--main-accent-color);
   margin-top: 15px;
-  transition: width 0.3s linear;
+  transition: max-width 0.3s linear;
 }
 .aboutSubscription {
   font-family: var(--secont-font);
