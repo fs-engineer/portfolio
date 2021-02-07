@@ -26,87 +26,98 @@ export default function NavMenu({ onOpenMenu, isOpen }) {
   });
 
   return (
-    <div className={isOpen ? `${s.menuOpen}` : `${s.menuClose}`}>
-      <button
-        className={s.closeBtn}
-        type="button"
-        onClick={() => onOpenMenu(false)}
-      >
-        <AiOutlineCloseCircle />
-      </button>
-      <ul className={s.list}>
-        <li className={s.item}>
-          <NavLink to="/" onClick={() => onOpenMenu(false)}>
-            <div className={s.imgWrapper}>
-              <div
-                className={
-                  windowSize.width < 769 ? s.mobileOverlay : s.imgOverlay
-                }
-              >
-                <p className={s.menuText}>home</p>
+    <div
+      className={
+        isOpen
+          ? s.menuOverlay
+          : setTimeout(() => {
+              return s.menuOverlayClose;
+            }, 300)
+      }
+      onClick={() => onOpenMenu(false)}
+    >
+      <div className={isOpen ? `${s.menuOpen}` : `${s.menuClose}`}>
+        <button
+          className={s.closeBtn}
+          type="button"
+          onClick={() => onOpenMenu(false)}
+        >
+          <AiOutlineCloseCircle />
+        </button>
+        <ul className={s.list}>
+          <li className={s.item}>
+            <NavLink to="/" onClick={() => onOpenMenu(false)}>
+              <div className={s.imgWrapper}>
+                <div
+                  className={
+                    windowSize.width < 769 ? s.mobileOverlay : s.imgOverlay
+                  }
+                >
+                  <p className={s.menuText}>home</p>
+                </div>
+                <img src={homeImg} alt="home" />
               </div>
-              <img src={homeImg} alt="home" />
-            </div>
-          </NavLink>
-        </li>
-        <li className={s.item}>
-          <NavLink to="/portfolio" onClick={() => onOpenMenu(false)}>
-            <div className={s.imgWrapper}>
-              <div
-                className={
-                  windowSize.width < 769 ? s.mobileOverlay : s.imgOverlay
-                }
-              >
-                <p className={s.menuText}>portfolio</p>
+            </NavLink>
+          </li>
+          <li className={s.item}>
+            <NavLink to="/portfolio" onClick={() => onOpenMenu(false)}>
+              <div className={s.imgWrapper}>
+                <div
+                  className={
+                    windowSize.width < 769 ? s.mobileOverlay : s.imgOverlay
+                  }
+                >
+                  <p className={s.menuText}>portfolio</p>
+                </div>
+                <img src={portfolioImg} alt="portfolio" />
               </div>
-              <img src={portfolioImg} alt="portfolio" />
-            </div>
-          </NavLink>
-        </li>
-        <li className={s.item}>
-          <a href="/#about" onClick={() => onOpenMenu(false)}>
-            <div className={s.imgWrapper}>
-              <div
-                className={
-                  windowSize.width < 769 ? s.mobileOverlay : s.imgOverlay
-                }
-              >
-                <p className={s.menuText}>about</p>
+            </NavLink>
+          </li>
+          <li className={s.item}>
+            <a href="/#about" onClick={() => onOpenMenu(false)}>
+              <div className={s.imgWrapper}>
+                <div
+                  className={
+                    windowSize.width < 769 ? s.mobileOverlay : s.imgOverlay
+                  }
+                >
+                  <p className={s.menuText}>about</p>
+                </div>
+                <img src={aboutImg} alt="about" />
               </div>
-              <img src={aboutImg} alt="about" />
-            </div>
-          </a>
-        </li>
-        <li className={s.item}>
-          <a href="/#myService" onClick={() => onOpenMenu(false)}>
-            <div className={s.imgWrapper}>
-              <div
-                className={
-                  windowSize.width < 769 ? s.mobileOverlay : s.imgOverlay
-                }
-              >
-                <p className={s.menuText}>my service</p>
+            </a>
+          </li>
+          <li className={s.item}>
+            <a href="/#myService" onClick={() => onOpenMenu(false)}>
+              <div className={s.imgWrapper}>
+                <div
+                  className={
+                    windowSize.width < 769 ? s.mobileOverlay : s.imgOverlay
+                  }
+                >
+                  <p className={s.menuText}>my service</p>
+                </div>
+                <img src={myServiceImg} alt="my service" />
               </div>
-              <img src={myServiceImg} alt="my service" />
-            </div>
-          </a>
-        </li>
+            </a>
+          </li>
 
-        <li className={s.item}>
-          <NavLink to="/contacts" onClick={() => onOpenMenu(false)}>
-            <div className={s.imgWrapper}>
-              <div
-                className={
-                  windowSize.width < 769 ? s.mobileOverlay : s.imgOverlay
-                }
-              >
-                <p className={s.menuText}>contacts</p>
+          <li className={s.item}>
+            <NavLink to="/contacts" onClick={() => onOpenMenu(false)}>
+              <div className={s.imgWrapper}>
+                <div
+                  className={
+                    windowSize.width < 769 ? s.mobileOverlay : s.imgOverlay
+                  }
+                >
+                  <p className={s.menuText}>contacts</p>
+                </div>
+                <img src={contactsImg} alt="contacts" />
               </div>
-              <img src={contactsImg} alt="contacts" />
-            </div>
-          </NavLink>
-        </li>
-      </ul>
+            </NavLink>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }

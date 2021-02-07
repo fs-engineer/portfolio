@@ -77,6 +77,17 @@
   background-color: rgba(0, 0, 0, 0.5);
   transition: all 0.3s linear;
 }
+.menuOverlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.menuOverlayClose {
+  visibility: hidden;
+  opacity: 0;
+}
 
 @media (max-width: 767px) {
   .menuText {
