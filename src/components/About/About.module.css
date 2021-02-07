@@ -91,6 +91,15 @@
   margin-bottom: 30px;
 }
 
+@media (max-width: 767px) {
+  .imageBlock {
+    margin-bottom: 100px;
+  }
+  .aboutSection::before {
+    top: 45%;
+  }
+}
+
 @media (min-width: 1024px) {
   .aboutSection {
     padding: 100px 55px 50px;
