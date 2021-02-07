@@ -15,7 +15,6 @@ export default function Hero() {
       <Container>
         <div className={s.heroTextWrapper}>
           <h2 className={s.secondTitle}>i am vadym yevlanov</h2>
-
           <h1 className={s.mainTitle}>full-stack web developer</h1>
           <NavLink className="button" type="NavLink" to="/contacts">
             contact me
