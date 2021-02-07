@@ -1,11 +1,13 @@
 import s from './Logo.module.css';
 import logo from '../../image/svg/logo-light.svg';
-// import logo from '../../image/svg/logo.svg';
+import { NavLink } from 'react-router-dom';
 
 export default function Logo() {
   return (
-    <div className={s.logo}>
-      <img className={s.logoImage} src={logo} alt="logo" />
-    </div>
+    <NavLink to="/">
+      <div className={s.logo}>
+        <img className={s.logoImage} src={logo} alt="logo" />
+      </div>
+    </NavLink>
   );
 }
