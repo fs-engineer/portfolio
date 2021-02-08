@@ -3,15 +3,14 @@ import s from './About.module.css';
 import aboutImage from '../../image/about.jpg';
 import Polygons from '../layout/Polygons';
 import cv from '../../image/cv/cv.pdf';
-import { useEffect, useRef } from 'react';
+import { useRef } from 'react';
 
 export default function About({ getPosition }) {
   const aboutTitle = useRef();
-  console.log(aboutTitle.current);
 
-  useEffect(() => {
-    getPosition(aboutTitle.current);
-  }, []);
+  // useEffect(() => {
+  //   getPosition(aboutTitle.current);
+  // }, []);
 
   return (
     <section className={s.aboutSection} id="about">

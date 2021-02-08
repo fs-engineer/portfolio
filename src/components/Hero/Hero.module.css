@@ -2,7 +2,7 @@
   position: relative;
   background-color: var(--second-bg-color);
   text-transform: uppercase;
-  height: 90vh;
+  height: 650px;
 }
 .heroSection::after {
   content: '';
@@ -67,7 +67,7 @@
 }
 .socialLink {
   position: absolute;
-  top: 70vh;
+  bottom: 25px;
   z-index: 20;
 }
 .socialLink::before {
@@ -132,6 +132,12 @@
     top: 170px;
     right: 250px;
     animation: slide 25s 2s alternate infinite linear;
+  }
+  .heroSection {
+    height: 850px;
+  }
+  .socialLink {
+    bottom: 80px;
   }
 }
 
