@@ -1,6 +1,6 @@
 .menuClose {
   position: fixed;
-  top: 90px;
+  top: 80px;
   right: -370px;
   padding: 20px;
   background-color: var(--navMenu-bg-color);
@@ -11,16 +11,19 @@
 }
 .menuOpen {
   position: fixed;
-  top: 90px;
+  top: 80px;
   right: 0;
   transform: translateX(-40px);
   padding: 20px;
   background-color: rgba(24, 24, 24, 1);
   border: 1px solid var(--line-color);
   border-radius: 5px;
-
   z-index: 999;
   transition: all 0.3s linear;
+}
+.list {
+  height: 500px;
+  overflow: scroll;
 }
 .item {
   cursor: pointer;
@@ -83,6 +86,7 @@
   top: 0;
   width: 100%;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .menuOverlayClose {
   visibility: hidden;
@@ -104,5 +108,9 @@
 @media (min-width: 1024px) {
   .menuOpen {
     transform: translateX(-100px);
+  }
+  .list {
+    height: auto;
+    overflow: visible;
   }
 }
