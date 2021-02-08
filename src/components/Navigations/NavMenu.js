@@ -74,7 +74,7 @@ export default function NavMenu({ onOpenMenu, isOpen }) {
             </NavLink>
           </li>
           <li className={s.item}>
-            <a href="/#about" onClick={() => onOpenMenu(false)}>
+            <NavLink to="/#about" onClick={() => onOpenMenu(false)}>
               <div className={s.imgWrapper}>
                 <div
                   className={
@@ -85,10 +85,10 @@ export default function NavMenu({ onOpenMenu, isOpen }) {
                 </div>
                 <img src={aboutImg} alt="about" />
               </div>
-            </a>
+            </NavLink>
           </li>
           <li className={s.item}>
-            <a href="/#myService" onClick={() => onOpenMenu(false)}>
+            <NavLink to="/#myservice" onClick={() => onOpenMenu(false)}>
               <div className={s.imgWrapper}>
                 <div
                   className={
@@ -99,7 +99,7 @@ export default function NavMenu({ onOpenMenu, isOpen }) {
                 </div>
                 <img src={myServiceImg} alt="my service" />
               </div>
-            </a>
+            </NavLink>
           </li>
 
           <li className={s.item}>
