@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import { Route, Switch } from 'react-router-dom';
+import Footer from './components/Footer/Footer';
 import AppWrapper from './components/layout/AppWrapper';
 import Navigations from './components/Navigations/Navigations';
 const HomeView = React.lazy(() => import('./views/HomeView'));
@@ -18,6 +19,7 @@ function App() {
             <Route path="/contacts" component={ContactsView} />
           </Switch>
         </Suspense>
+        <Footer />
       </AppWrapper>
     </>
   );

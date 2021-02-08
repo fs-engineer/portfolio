@@ -1,0 +1,19 @@
+.section {
+  position: relative;
+  padding: 45px;
+  display: flex;
+  justify-content: space-around;
+}
+.section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: var(--line-color);
+}
+.list {
+  display: flex;
+}
