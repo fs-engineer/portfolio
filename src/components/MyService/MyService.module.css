@@ -109,6 +109,12 @@
     margin: 0 auto;
     max-width: 650px;
   }
+  .item:not(:last-child) {
+    margin-bottom: 0;
+  }
+  .item:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 1024px) {
