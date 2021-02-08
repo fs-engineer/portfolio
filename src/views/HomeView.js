@@ -8,8 +8,11 @@ export default function HomeView() {
   const pathName = useLocation();
 
   useEffect(() => {
+    if (pathName.hash === '') {
+      window.scrollTo(0, 0);
+    }
     if (pathName.hash === '#about') {
-      window.scrollTo(0, 700);
+      window.scrollTo(0, 900);
     }
     if (pathName.hash === '#myservice') {
       window.scrollTo(0, 1800);
