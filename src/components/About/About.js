@@ -3,15 +3,8 @@ import s from './About.module.css';
 import aboutImage from '../../image/about.jpg';
 import Polygons from '../layout/Polygons';
 import cv from '../../image/cv/cv.pdf';
-import { useRef } from 'react';
 
-export default function About({ getPosition }) {
-  const aboutTitle = useRef();
-
-  // useEffect(() => {
-  //   getPosition(aboutTitle.current);
-  // }, []);
-
+export default function About() {
   return (
     <section className={s.aboutSection} id="about">
       <Container>
@@ -22,9 +15,7 @@ export default function About({ getPosition }) {
             </div>
           </div>
           <div className={s.textBlock}>
-            <h2 className={s.title} ref={aboutTitle}>
-              About Me
-            </h2>
+            <h2 className={s.title}>About Me</h2>
             <p className={s.aboutSubscription}>
               I am a Web Developer located in Zhytomyr, Ukraine. I like
               to resolve design problems, create smart user interface
