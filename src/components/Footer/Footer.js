@@ -7,8 +7,8 @@ import s from './Footer.module.css';
 
 export default function Footer() {
   return (
-    <Container>
-      <section className={s.section}>
+    <section className={s.section}>
+      <Container>
         <p>Development by Vadym Yevlanov | 2021</p>
         <ul className={s.list}>
           <li className={s.socialItem}>
@@ -48,7 +48,7 @@ export default function Footer() {
             </a>
           </li>
         </ul>
-      </section>
-    </Container>
+      </Container>
+    </section>
   );
 }

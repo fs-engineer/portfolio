@@ -20,6 +20,7 @@
   border: none;
   max-width: 100%;
   margin-bottom: 10px;
+  color: var(--white-color);
 }
 
 .textArea {
@@ -29,6 +30,7 @@
   border: none;
   resize: none;
   margin-bottom: 15px;
+  color: var(--white-color);
 }
 @media (min-width: 768px) {
   .form {
