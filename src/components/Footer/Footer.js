@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <section className={s.section}>
       <Container>
-        <p>Development by Vadym Yevlanov | 2021</p>
+        <p className={s.copyright}>Development by Vadym Yevlanov | 2021</p>
         <ul className={s.list}>
           <li className={s.socialItem}>
             <a

@@ -17,3 +17,6 @@
 .list {
   display: flex;
 }
+.copyright {
+  font-family: var(--secont-font);
+}
