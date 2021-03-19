@@ -1,6 +1,14 @@
+import portfolio from '../image/portfolio/portfolio.jpg';
+import buns from '../image/portfolio/buns.jpg';
+import nitflix from '../image/portfolio/nitflix.jpg';
+import movie from '../image/portfolio/movie.jpg';
+import hellen from '../image/portfolio/hellen.jpg';
+import mamba from '../image/portfolio/mamba.jpg';
+import mogo from '../image/portfolio/mogo.jpg';
+
 const db = [
   {
-    img: '/portfolio/portfolio.jpg',
+    img: portfolio,
     name: 'Portfolio',
     homePage: 'https://gb-portfolio.netlify.app/',
     stack: {
@@ -18,7 +26,7 @@ const db = [
       "It's time for me to make my portfolio too. It's not finished yet. I will introduce new features as I study.",
   },
   {
-    img: '/portfolio/buns.jpg',
+    img: buns,
     name: 'Between The Buns',
     homePage: 'https://betweenthebuns-666fd.web.app/',
     date: 'december, 2021',
@@ -38,7 +46,7 @@ const db = [
       "It is a small online burger-shop project. With the possibility of online ordering, registration, its own online base and notification to the customer's mail",
   },
   {
-    img: '/portfolio/nitflix.jpg',
+    img: nitflix,
     name: 'Nitflix',
     homePage: 'https://nitflix.fun/',
     date: 'november, 2020',
@@ -67,7 +75,7 @@ const db = [
     ],
   },
   {
-    img: '/portfolio/movie.jpg',
+    img: movie,
     name: 'MovieFinder',
     homePage: 'https://gb-movies-finder.netlify.app/',
     date: 'january, 2021',
@@ -86,7 +94,7 @@ const db = [
       'In this little movie search application, I learned the beauty of hooks =) I also played around with the @ material-ui connection',
   },
   {
-    img: '/portfolio/hellen.jpg',
+    img: hellen,
     name: 'HellEn',
     homePage: 'https://hellen.fun/',
     date: 'july, 2020',
@@ -116,7 +124,7 @@ const db = [
     ],
   },
   {
-    img: '/portfolio/mamba.jpg',
+    img: mamba,
     name: 'Mamba',
     homePage: 'https://google-barma.github.io/Mamba/',
     date: 'october, 2020',
@@ -147,7 +155,7 @@ const db = [
     ],
   },
   {
-    img: '/portfolio/mogo.jpg',
+    img: mogo,
     name: 'MoGo',
     homePage: 'https://google-barma.github.io/mogo/build/',
     date: 'july, 2020',
