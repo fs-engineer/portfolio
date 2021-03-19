@@ -5,6 +5,7 @@ import movie from '../image/portfolio/movie.jpg';
 import hellen from '../image/portfolio/hellen.jpg';
 import mamba from '../image/portfolio/mamba.jpg';
 import mogo from '../image/portfolio/mogo.jpg';
+import contactBook from '../image/portfolio/contact.jpg';
 
 const db = [
   {
@@ -165,7 +166,7 @@ const db = [
       'This is my first big landing page. Unfortunately, I was too lazy to make it responsive. Since I was in a hurry to start learning JS.',
   },
   {
-    img: '/portfolio/contact.jpg',
+    img: contactBook,
     name: 'ContactBook',
     homePage: 'https://gb-contacts-book.netlify.app/',
     date: 'december, 2020',
