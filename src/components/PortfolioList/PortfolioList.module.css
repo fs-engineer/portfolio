@@ -72,11 +72,11 @@
   font-family: var(--secont-font);
   font-weight: 200;
 }
-.link {
+/* .link {
   margin-bottom: 5px;
   text-align: right;
-  justify-item: flex-end;
-}
+  justify-items: flex-end;
+} */
 .btnWrap {
   position: absolute;
   right: 10px;
@@ -88,27 +88,6 @@
 .content {
   letter-spacing: 1px;
   margin-bottom: 15px;
-}
-.stackList {
-  font-size: 12px;
-  /* display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-auto-flow: row;
-  grid-gap: 5px; */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  font-weight: 200;
-  letter-spacing: 1px;
-  text-align: right;
-  color: var(--main-accent-color);
-  margin-bottom: 15px;
-}
-.stackItem {
-  margin-bottom: 5px;
-}
-.stackItem:not(:last-child) {
-  margin-right: 5px;
 }
 
 @media (min-width: 768px) {

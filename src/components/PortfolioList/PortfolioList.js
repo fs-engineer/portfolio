@@ -2,6 +2,7 @@ import Container from '../layout/Container';
 import s from './PortfolioList.module.css';
 import db from '../dataBase';
 import GangList from '../GangList/GangList';
+import StackList from '../StackList/StackList';
 
 export default function PortfolioList() {
   return (
@@ -15,13 +16,8 @@ export default function PortfolioList() {
               <div className={s.overlay}>
                 <h3 className={s.itemTitle}>{name}</h3>
                 <span className={s.date}>{date}</span>
-                <ul className={s.stackList}>
-                  {Object.values(stack).map((item, idx) => (
-                    <li key={idx} className={s.stackItem}>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
+
+                <StackList stack={stack} />
                 <p className={s.content}>{comment ?? comment}</p>
 
                 {gang ? <GangList gangList={gang} /> : null}

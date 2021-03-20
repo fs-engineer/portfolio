@@ -1,0 +1,17 @@
+.stackList {
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-align: right;
+  color: var(--main-accent-color);
+  margin-bottom: 15px;
+}
+.stackItem {
+  margin-bottom: 5px;
+}
+.stackItem:not(:last-child) {
+  margin-right: 5px;
+}
