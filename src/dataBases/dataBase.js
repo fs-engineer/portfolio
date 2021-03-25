@@ -6,21 +6,22 @@ import hellen from '../image/portfolio/hellen.jpg';
 import mamba from '../image/portfolio/mamba.jpg';
 import mogo from '../image/portfolio/mogo.jpg';
 import contactBook from '../image/portfolio/contact.jpg';
+import stackList from '../dataBases/stackList';
 
 const db = [
   {
     img: portfolio,
     name: 'Portfolio',
     homePage: 'https://gb-portfolio.netlify.app/',
-    stack: {
-      jsx: 'JSX',
-      react: 'React',
-      reactLazy: 'React-Lazy',
-      cssModule: 'CSS3-module',
-      reactHooks: 'React-Hooks',
-      responsive: 'Responsive Design',
-      reactRouter: 'React-Router',
-    },
+    stack: [
+      stackList.JSX,
+      stackList.REACT,
+      stackList.REACT_LAZY,
+      stackList.CSS_MODULE,
+      stackList.REACT_HOOKS,
+      stackList.RESPONSIVE,
+      stackList.REACT_ROUTER,
+    ],
     date: 'january, 2021',
     gang: null,
     comment:
@@ -31,17 +32,17 @@ const db = [
     name: 'Between The Buns',
     homePage: 'https://betweenthebuns-666fd.web.app/',
     date: 'december, 2021',
-    stack: {
-      jsx: 'JSX',
-      react: 'React',
-      axios: 'Axios',
-      cssModule: 'CSS3-module',
-      reactHooks: 'React-Hooks',
-      firebaseDatabase: 'Firebase-Database',
-      firebaseHousting: 'Firebase-Housting',
-      firebaseFuncions: 'Firebase-Funcions',
-      firebaseAuthantication: 'Firebase-Authantication',
-    },
+    stack: [
+      stackList.JSX,
+      stackList.REACT,
+      stackList.AXIOS,
+      stackList.CSS_MODULE,
+      stackList.REACT_HOOKS,
+      stackList.FIRE_DATABASE,
+      stackList.FIRE_HOUSTING,
+      stackList.FIRE_FUNCTIONS,
+      stackList.FIRE_AUTH,
+    ],
     gang: null,
     comment:
       "It is a small online burger-shop project. With the possibility of online ordering, registration, its own online base and notification to the customer's mail",
@@ -51,14 +52,14 @@ const db = [
     name: 'Nitflix',
     homePage: 'https://nitflix.fun/',
     date: 'november, 2020',
-    stack: {
-      js: 'JS',
-      scss: 'SCSS',
-      html5: 'HTML5',
-      responsive: 'Responsive Design',
-      firebaseDatabase: 'Firebase-Database',
-      firebaseAuthantication: 'Firebase-Authantication',
-    },
+    stack: [
+      stackList.JS,
+      stackList.SCSS,
+      stackList.HTML5,
+      stackList.RESPONSIVE,
+      stackList.FIRE_DATABASE,
+      stackList.FIRE_AUTH,
+    ],
     comment: `Thanks to the FSDev team for the cool and fruitful work. It's always a pleasure to work with you.`,
     gang: [
       {
@@ -80,16 +81,16 @@ const db = [
     name: 'MovieFinder',
     homePage: 'https://gb-movies-finder.netlify.app/',
     date: 'january, 2021',
-    stack: {
-      jsx: 'JSX',
-      react: 'React',
-      axios: 'Axios',
-      reactLazy: 'React-Lazy',
-      cssModule: 'CSS3-module',
-      reactHooks: 'React-Hooks',
-      responsive: 'Responsive Design',
-      reactRouter: 'React-Router',
-    },
+    stack: [
+      stackList.JSX,
+      stackList.REACT,
+      stackList.AXIOS,
+      stackList.REACT_LAZY,
+      stackList.CSS_MODULE,
+      stackList.REACT_HOOKS,
+      stackList.RESPONSIVE,
+      stackList.REACT_ROUTER,
+    ],
     gang: null,
     comment:
       'In this little movie search application, I learned the beauty of hooks =) I also played around with the @ material-ui connection',
@@ -99,14 +100,13 @@ const db = [
     name: 'HellEn',
     homePage: 'https://hellen.fun/',
     date: 'july, 2020',
-    stack: {
-      js: 'JS',
-      scss: 'SCSS',
-      ajax: 'AJAX',
-      html5: 'HTML5',
-      jquery: 'JQuery',
-      responsive: 'Responsive Design',
-    },
+    stack: [
+      stackList.JS,
+      stackList.SCSS,
+      stackList.AJAX,
+      stackList.HTML5,
+      stackList.JQUERY,
+    ],
     comment:
       'This is my first team project with FSDev. Responsive design was used. High pixel density screens are supported. A telegram bot is connected for feedback.',
     gang: [
@@ -129,15 +129,15 @@ const db = [
     name: 'Mamba',
     homePage: 'https://google-barma.github.io/Mamba/',
     date: 'october, 2020',
-    stack: {
-      js: 'JS',
-      scss: 'SCSS',
-      html5: 'HTML5',
-      canvas: 'Canvas',
-      responsive: 'Responsive Design',
-      firebaseDatabase: 'Firebase-Database',
-      firebaseAuthantication: 'Firebase-Authantication',
-    },
+    stack: [
+      stackList.JS,
+      stackList.SCSS,
+      stackList.HTML5,
+      stackList.CANVAS,
+      stackList.RESPONSIVE,
+      stackList.FIRE_DATABASE,
+      stackList.FIRE_AUTH,
+    ],
     comment:
       'This is the good old Snake game. With registration and keeping personal statistics',
     gang: [
@@ -160,7 +160,7 @@ const db = [
     name: 'MoGo',
     homePage: 'https://google-barma.github.io/mogo/build/',
     date: 'july, 2020',
-    stack: { html5: 'HTML5', scss: 'SCSS' },
+    stack: [stackList.HTML5, stackList.SCSS],
     gang: null,
     comment:
       'This is my first big landing page. Unfortunately, I was too lazy to make it responsive. Since I was in a hurry to start learning JS.',
@@ -170,16 +170,16 @@ const db = [
     name: 'ContactBook',
     homePage: 'https://gb-contacts-book.netlify.app/',
     date: 'december, 2020',
-    stack: {
-      react: 'React',
-      redux: 'Redux',
-      cssModule: 'CSS3-module',
-      reactLazy: 'React-Lazy',
-      reactHooks: 'React-Hooks',
-      reactRouter: 'React-Router',
-      firebaseDatabase: 'Firebase-Database',
-      firebaseAuthantication: 'Firebase-Authantication',
-    },
+    stack: [
+      stackList.REACT,
+      stackList.AXIOS,
+      stackList.CSS_MODULE,
+      stackList.REACT_LAZY,
+      stackList.REACT_HOOKS,
+      stackList.REACT_ROUTER,
+      stackList.FIRE_DATABASE,
+      stackList.FIRE_AUTH,
+    ],
     gang: null,
     comment:
       'I understand that for such an application Redux is not needed, but using his example it was very easy to understand how it works',
