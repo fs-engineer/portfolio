@@ -9,7 +9,7 @@ export default function MyService() {
       <h2 className={s.sectionTitle}>my service</h2>
       <ul className={s.list}>
         {serviceData.map(({ title, icon, description }) => (
-          <li className={s.item}>
+          <li key={title} className={s.item}>
             <h3 className={s.itemTitle}>{title}</h3>
             <div className={s.imageWrapper}>
               <div className={s.imageOverlay}></div>
