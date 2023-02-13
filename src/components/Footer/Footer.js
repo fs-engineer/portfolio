@@ -24,7 +24,7 @@ export default function Footer() {
           </li>
           <li className={s.socialItem}>
             <a
-              href="https://github.com/Google-Barma"
+              href="https://github.com/fs-engineer"
               target="_blank"
               rel="noreferrer"
             >
