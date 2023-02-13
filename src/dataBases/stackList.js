@@ -18,6 +18,7 @@ const stackList = {
   REDUX: 'Redux',
   RESPONSIVE: 'Responsive Design',
   SCSS: 'SCSS',
+  TYPE_SCRIPT: 'Type Script',
 };
 
 export default stackList;

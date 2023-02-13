@@ -6,6 +6,7 @@ import hellen from '../image/portfolio/hellen.jpg';
 import mamba from '../image/portfolio/mamba.jpg';
 import mogo from '../image/portfolio/mogo.jpg';
 import contactBook from '../image/portfolio/contact.jpg';
+import chess from '../image/portfolio/chess.jpg';
 import stackList from '../dataBases/stackList';
 
 const db = [
@@ -48,6 +49,34 @@ const db = [
       "It is a small online burger-shop project. With the possibility of online ordering, registration, its own online base and notification to the customer's mail",
   },
   {
+    img: chess,
+    name: 'Chess',
+    homePage: 'https://fs-engineer.github.io/chess/',
+    date: 'february, 2023',
+    stack: [stackList.REACT, stackList.TYPE_SCRIPT],
+    gang: null,
+    comment: "It's a pet project, for TypeScript training",
+  },
+  {
+    img: movie,
+    name: 'MovieFinder',
+    homePage: 'https://gb-movies-finder.netlify.app/',
+    date: 'january, 2021',
+    stack: [
+      stackList.JSX,
+      stackList.REACT,
+      stackList.AXIOS,
+      stackList.REACT_LAZY,
+      stackList.CSS_MODULE,
+      stackList.REACT_HOOKS,
+      stackList.RESPONSIVE,
+      stackList.REACT_ROUTER,
+    ],
+    gang: null,
+    comment:
+      'In this little movie search application, I learned the beauty of hooks =) I also played around with the @ material-ui connection',
+  },
+  {
     img: nitflix,
     name: 'Nitflix',
     homePage: 'https://nitflix.fun/',
@@ -75,25 +104,6 @@ const db = [
         name: 'Maxim Kozlov',
       },
     ],
-  },
-  {
-    img: movie,
-    name: 'MovieFinder',
-    homePage: 'https://gb-movies-finder.netlify.app/',
-    date: 'january, 2021',
-    stack: [
-      stackList.JSX,
-      stackList.REACT,
-      stackList.AXIOS,
-      stackList.REACT_LAZY,
-      stackList.CSS_MODULE,
-      stackList.REACT_HOOKS,
-      stackList.RESPONSIVE,
-      stackList.REACT_ROUTER,
-    ],
-    gang: null,
-    comment:
-      'In this little movie search application, I learned the beauty of hooks =) I also played around with the @ material-ui connection',
   },
   {
     img: hellen,
