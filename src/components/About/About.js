@@ -2,7 +2,7 @@ import Container from '../layout/Container';
 import s from './About.module.css';
 import aboutImage from '../../image/about.jpg';
 import Polygons from '../layout/Polygons';
-import cv from '../../image/cv/cv.pdf';
+import cv from '../../image/cv/CV_Vadym_Yevlanov.pdf';
 
 export default function About() {
   return (

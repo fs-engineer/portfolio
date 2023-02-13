@@ -39,7 +39,7 @@ const db = [
       stackList.CSS_MODULE,
       stackList.REACT_HOOKS,
       stackList.FIRE_DATABASE,
-      stackList.FIRE_HOUSTING,
+      stackList.FIRE_HOSTING,
       stackList.FIRE_FUNCTIONS,
       stackList.FIRE_AUTH,
     ],
