@@ -17,10 +17,10 @@ export default function About() {
           <div className={s.textBlock}>
             <h2 className={s.title}>About Me</h2>
             <p className={s.aboutSubscription}>
-              I am a Web Developer located in Zhytomyr, Ukraine. I like
-              to resolve design problems, create smart user interface
-              and imagine useful interaction, developing rich web experiences
-              & web applications.
+              I am a Web Developer located in Zhytomyr, Ukraine. I like to
+              resolve design problems, create smart user interface and imagine
+              useful interaction, developing rich web experiences & web
+              applications.
             </p>
             <p className={s.aboutSubscription}>
               I like to turn complex tasks into simple, beautiful and intuitive

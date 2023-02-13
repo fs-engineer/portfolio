@@ -1,0 +1,20 @@
+.title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto 35px;
+  min-width: 500px;
+}
+
+.listItem {
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--main-accent-color);
+}
+.listItem:not(:last-child) {
+  margin-right: 10px;
+}
