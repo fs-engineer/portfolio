@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d1ba98a-e81f-436a-b151-85092a303eed" name="Default Changelist" comment="hot fix in MyService">
-      <change afterPath="$PROJECT_DIR$/src/image/portfolio/chess.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataBases/dataBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataBases/dataBase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataBases/stackList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataBases/stackList.js" afterDir="false" />
-    </list>
+    <list default="true" id="5d1ba98a-e81f-436a-b151-85092a303eed" name="Default Changelist" comment="added chess project to portfolio" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +56,17 @@
       <recent name="$PROJECT_DIR$/src/image/cv" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.deploy-netlify">
+    <configuration name="deploy-netlify" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -72,6 +77,10 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.deploy-netlify" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,7 +93,7 @@
       <workItem from="1617362397466" duration="6000" />
       <workItem from="1619094364902" duration="602000" />
       <workItem from="1675772942896" duration="2430000" />
-      <workItem from="1676287665581" duration="6091000" />
+      <workItem from="1676287665581" duration="6277000" />
     </task>
     <task id="LOCAL-00001" summary="MyService restructured">
       <created>1676290211599</created>
@@ -128,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676295425560</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added chess project to portfolio">
+      <created>1676295659421</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676295659421</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +155,7 @@
     <MESSAGE value="MyService restructured" />
     <MESSAGE value="added new cv" />
     <MESSAGE value="hot fix in MyService" />
-    <option name="LAST_COMMIT_MESSAGE" value="hot fix in MyService" />
+    <MESSAGE value="added chess project to portfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="added chess project to portfolio" />
   </component>
 </project>
