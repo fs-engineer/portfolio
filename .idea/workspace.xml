@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d1ba98a-e81f-436a-b151-85092a303eed" name="Default Changelist" comment="added keyboard app">
-      <change afterPath="$PROJECT_DIR$/src/image/portfolio/keyboard.jpg" afterDir="false" />
+    <list default="true" id="5d1ba98a-e81f-436a-b151-85092a303eed" name="Default Changelist" comment="hot-fix keyboard comment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/dataBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/dataBase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortfolioList/PortfolioItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioList/PortfolioItems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortfolioList/PortfolioList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioList/PortfolioList.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src/image/cv" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.deploy-netlify">
     <configuration name="deploy-netlify" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -105,7 +102,7 @@
       <workItem from="1675772942896" duration="2430000" />
       <workItem from="1676287665581" duration="6847000" />
       <workItem from="1676545319144" duration="1098000" />
-      <workItem from="1676546508457" duration="1082000" />
+      <workItem from="1676546508457" duration="1547000" />
     </task>
     <task id="LOCAL-00001" summary="MyService restructured">
       <created>1676290211599</created>
@@ -177,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676546087594</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added keyboard img, fixed list item height">
+      <created>1676547756318</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676547756318</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +196,7 @@
     <MESSAGE value="changed date in footer" />
     <MESSAGE value="fixed git link" />
     <MESSAGE value="added keyboard app" />
-    <option name="LAST_COMMIT_MESSAGE" value="added keyboard app" />
+    <MESSAGE value="added keyboard img, fixed list item height" />
+    <option name="LAST_COMMIT_MESSAGE" value="added keyboard img, fixed list item height" />
   </component>
 </project>

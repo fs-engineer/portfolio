@@ -19,7 +19,7 @@ const db = [
     date: 'february, 2023',
     gang: null,
     comment:
-      "This is my new pet project. It's still in development. The idea of the project arose after my observations of Ukrainian developers. Many of them do not use the weak dialing method. Although it significantly reduces development time. I decided to make an accessible, intelligent and not boring application for training this ability.",
+      "This is my new pet project. It's still in development. The idea of the project arose after my observations of Ukrainian developers. Many of them do not use the blind dialing method. Although it significantly reduces development time. I decided to make an accessible, intelligent and not boring application for training this ability.",
   },
   {
     img: portfolio,
