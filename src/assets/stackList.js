@@ -20,6 +20,8 @@ const stackList = {
   SCSS: 'SCSS',
   TYPE_SCRIPT: 'TypeScript',
   STYLED_COMPONENTS: 'StyledComponents',
+  GH_PAGES: 'GH-Pages',
+  NETLIFY: 'Netlify',
 };
 
 export default stackList;

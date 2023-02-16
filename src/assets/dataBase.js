@@ -15,7 +15,12 @@ const db = [
     img: keyboard,
     name: 'work name Keyboard',
     homePage: 'https://fs-engineer.github.io/keyboard/',
-    stack: [stackList.STYLED_COMPONENTS, stackList.JSX, stackList.REACT],
+    stack: [
+      stackList.STYLED_COMPONENTS,
+      stackList.JSX,
+      stackList.REACT,
+      stackList.GH_PAGES,
+    ],
     date: 'february, 2023',
     gang: null,
     comment:
@@ -33,6 +38,7 @@ const db = [
       stackList.REACT_HOOKS,
       stackList.RESPONSIVE,
       stackList.REACT_ROUTER,
+      stackList.NETLIFY,
     ],
     date: 'january, 2021',
     gang: null,
@@ -54,6 +60,7 @@ const db = [
       stackList.FIRE_HOSTING,
       stackList.FIRE_FUNCTIONS,
       stackList.FIRE_AUTH,
+      stackList.NETLIFY,
     ],
     gang: null,
     comment:
@@ -64,7 +71,7 @@ const db = [
     name: 'Chess',
     homePage: 'https://fs-engineer.github.io/chess/',
     date: 'february, 2023',
-    stack: [stackList.REACT, stackList.TYPE_SCRIPT],
+    stack: [stackList.REACT, stackList.TYPE_SCRIPT, stackList.GH_PAGES],
     gang: null,
     comment: "It's a pet project, for TypeScript training",
   },
@@ -82,6 +89,7 @@ const db = [
       stackList.REACT_HOOKS,
       stackList.RESPONSIVE,
       stackList.REACT_ROUTER,
+      stackList.NETLIFY,
     ],
     gang: null,
     comment:
