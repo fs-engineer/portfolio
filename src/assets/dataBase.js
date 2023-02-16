@@ -16,6 +16,7 @@ const db = [
     name: 'work name Keyboard',
     homePage: 'https://fs-engineer.github.io/keyboard/',
     stack: [
+      stackList.TYPE_SCRIPT,
       stackList.STYLED_COMPONENTS,
       stackList.JSX,
       stackList.REACT,
