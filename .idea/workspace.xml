@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d1ba98a-e81f-436a-b151-85092a303eed" name="Default Changelist" comment="fixed git link">
+    <list default="true" id="5d1ba98a-e81f-436a-b151-85092a303eed" name="Default Changelist" comment="added keyboard app">
+      <change afterPath="$PROJECT_DIR$/src/image/portfolio/keyboard.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortfolioList/PortfolioList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioList/PortfolioList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PortfolioList/PortfolioStackItems/PortfolioStackItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioList/PortfolioStackItems/PortfolioStackItems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataBases/dataBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/dataBase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataBases/stackList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stackList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/dataBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/dataBase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PortfolioList/PortfolioItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioList/PortfolioItems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PortfolioList/PortfolioList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PortfolioList/PortfolioList.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,33 +37,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/fsdev/Documents/Projects/portfolio&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/fsdev/Documents/Projects/portfolio/node_modules/prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm 2023.1 EAP.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/fsdev/Documents/Projects/portfolio/src/image/portfolio",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/fsdev/Documents/Projects/portfolio/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Applications/WebStorm 2023.1 EAP.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/image/portfolio" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/image/portfolio" />
       <recent name="$PROJECT_DIR$/src/image/cv" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy-netlify">
+  <component name="RunManager" selected="npm.start">
     <configuration name="deploy-netlify" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -101,7 +104,8 @@
       <workItem from="1619094364902" duration="602000" />
       <workItem from="1675772942896" duration="2430000" />
       <workItem from="1676287665581" duration="6847000" />
-      <workItem from="1676545319144" duration="643000" />
+      <workItem from="1676545319144" duration="1098000" />
+      <workItem from="1676546508457" duration="1082000" />
     </task>
     <task id="LOCAL-00001" summary="MyService restructured">
       <created>1676290211599</created>
@@ -166,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676296005773</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added keyboard app">
+      <created>1676546087594</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676546087594</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +191,7 @@
     <MESSAGE value="added chess project to portfolio" />
     <MESSAGE value="changed date in footer" />
     <MESSAGE value="fixed git link" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed git link" />
+    <MESSAGE value="added keyboard app" />
+    <option name="LAST_COMMIT_MESSAGE" value="added keyboard app" />
   </component>
 </project>

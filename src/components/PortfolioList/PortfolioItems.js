@@ -11,14 +11,16 @@ function PortfolioItems({ listData }) {
           <li key={idx} className={s.item}>
             <div className={s.imageWrapper}>
               <div className={s.overlay}>
-                <h3 className={s.itemTitle}>{name}</h3>
-                <span className={s.date}>{date}</span>
+                <div>
+                  <h3 className={s.itemTitle}>{name}</h3>
+                  <span className={s.date}>{date}</span>
 
-                <StackList stack={stack} />
+                  <StackList stack={stack} />
 
-                <p className={s.content}>{comment ?? comment}</p>
+                  <p className={s.content}>{comment ?? comment}</p>
 
-                {gang ? <GangList gangList={gang} /> : null}
+                  {gang ? <GangList gangList={gang} /> : null}
+                </div>
 
                 <div className={s.btnWrap}>
                   <a

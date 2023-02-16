@@ -36,6 +36,9 @@
 .overlay {
   position: absolute;
   visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   opacity: 0;
   top: 0;
   left: 0;
@@ -72,13 +75,9 @@
   font-family: var(--secont-font);
   font-weight: 200;
 }
-/* .link {
-  margin-bottom: 5px;
-  text-align: right;
-  justify-items: flex-end;
-} */
+
 .btnWrap {
-  position: absolute;
+  position: relative;
   right: 10px;
   bottom: 10px;
   display: flex;

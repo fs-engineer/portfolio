@@ -7,11 +7,12 @@ import mamba from '../image/portfolio/mamba.jpg';
 import mogo from '../image/portfolio/mogo.jpg';
 import contactBook from '../image/portfolio/contact.jpg';
 import chess from '../image/portfolio/chess.jpg';
+import keyboard from '../image/portfolio/keyboard.jpg';
 import stackList from './stackList';
 
 const db = [
   {
-    img: portfolio,
+    img: keyboard,
     name: 'work name Keyboard',
     homePage: 'https://fs-engineer.github.io/keyboard/',
     stack: [stackList.STYLED_COMPONENTS, stackList.JSX, stackList.REACT],
