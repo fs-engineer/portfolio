@@ -108,7 +108,7 @@ const db = [
       stackList.FIRE_DATABASE,
       stackList.FIRE_AUTH,
     ],
-    comment: `Thanks to the FSDev team for the cool and fruitful work. It's always a pleasure to work with you. [This app was on free hosting]`,
+    comment: `Thanks to the FSDev team for the cool and fruitful work. It's always a pleasure to work with you.`,
     gang: [
       {
         url: 'https://github.com/IvanFesenko',
