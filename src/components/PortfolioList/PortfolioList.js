@@ -1,7 +1,7 @@
 import Container from '../layout/Container';
 import PortfolioItems from './PortfolioItems';
 import s from './PortfolioList.module.css';
-import db from '../../dataBases/dataBase';
+import db from '../../assets/dataBase';
 import PortfolioStackListItems from './PortfolioStackItems/PortfolioStackItems';
 
 export default function PortfolioList() {

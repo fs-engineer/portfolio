@@ -7,9 +7,19 @@ import mamba from '../image/portfolio/mamba.jpg';
 import mogo from '../image/portfolio/mogo.jpg';
 import contactBook from '../image/portfolio/contact.jpg';
 import chess from '../image/portfolio/chess.jpg';
-import stackList from '../dataBases/stackList';
+import stackList from './stackList';
 
 const db = [
+  {
+    img: portfolio,
+    name: 'work name Keyboard',
+    homePage: 'https://fs-engineer.github.io/keyboard/',
+    stack: [stackList.STYLED_COMPONENTS, stackList.JSX, stackList.REACT],
+    date: 'february, 2023',
+    gang: null,
+    comment:
+      "This is my new pet project. It's still in development. The idea of the project arose after my observations of Ukrainian developers. Many of them do not use the weak dialing method. Although it significantly reduces development time. I decided to make an accessible, intelligent and not boring application for training this ability.",
+  },
   {
     img: portfolio,
     name: 'Portfolio',
@@ -79,7 +89,7 @@ const db = [
   {
     img: nitflix,
     name: 'Nitflix',
-    homePage: 'https://nitflix.fun/',
+    homePage: 'https://github.com/fs-engineer/NITFLIX',
     date: 'november, 2020',
     stack: [
       stackList.JS,
@@ -89,7 +99,7 @@ const db = [
       stackList.FIRE_DATABASE,
       stackList.FIRE_AUTH,
     ],
-    comment: `Thanks to the FSDev team for the cool and fruitful work. It's always a pleasure to work with you.`,
+    comment: `Thanks to the FSDev team for the cool and fruitful work. It's always a pleasure to work with you. [This app was on free hosting]`,
     gang: [
       {
         url: 'https://github.com/IvanFesenko',
@@ -108,7 +118,7 @@ const db = [
   {
     img: hellen,
     name: 'HellEn',
-    homePage: 'https://hellen.fun/',
+    homePage: 'https://github.com/fs-engineer/HellEN',
     date: 'july, 2020',
     stack: [
       stackList.JS,
@@ -137,7 +147,7 @@ const db = [
   {
     img: mamba,
     name: 'Mamba',
-    homePage: 'https://google-barma.github.io/Mamba/',
+    homePage: 'https://github.com/fs-engineer/Mamba',
     date: 'october, 2020',
     stack: [
       stackList.JS,
@@ -168,7 +178,7 @@ const db = [
   {
     img: mogo,
     name: 'MoGo',
-    homePage: 'https://google-barma.github.io/mogo/build/',
+    homePage: 'https://github.com/fs-engineer/mogo',
     date: 'july, 2020',
     stack: [stackList.HTML5, stackList.SCSS],
     gang: null,

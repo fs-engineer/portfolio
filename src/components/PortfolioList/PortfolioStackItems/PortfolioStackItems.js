@@ -1,4 +1,4 @@
-import stackList from '../../../dataBases/stackList';
+import stackList from '../../../assets/stackList';
 import s from './PortfolioStackItems.module.css';
 
 export default function PortfolioStackItems() {
