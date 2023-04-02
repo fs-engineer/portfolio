@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d1ba98a-e81f-436a-b151-85092a303eed" name="Default Changelist" comment="hot-fix keyboard comment">
+    <list default="true" id="5d1ba98a-e81f-436a-b151-85092a303eed" name="Default Changelist" comment="cd updated">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/dataBase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/dataBase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,36 +35,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/fsdev/Documents/Projects/portfolio/src/image/portfolio",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/fsdev/Documents/Projects/portfolio/node_modules/prettier",
-    "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "/Applications/WebStorm 2023.1 EAP.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/fsdev/Documents/Projects/portfolio/src/image/portfolio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/fsdev/Documents/Projects/portfolio/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm 2023.1 EAP.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/image/portfolio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/image/cv" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/image/portfolio" />
-      <recent name="$PROJECT_DIR$/src/image/cv" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy-netlify">
+  <component name="RunManager" selected="npm.start">
     <configuration name="deploy-netlify" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -103,6 +104,24 @@
       <workItem from="1676287665581" duration="6847000" />
       <workItem from="1676545319144" duration="1098000" />
       <workItem from="1676546508457" duration="1547000" />
+      <workItem from="1676548060492" duration="40000" />
+      <workItem from="1676548182119" duration="444000" />
+      <workItem from="1676549389618" duration="189000" />
+      <workItem from="1676558536771" duration="733000" />
+      <workItem from="1677512832420" duration="238000" />
+      <workItem from="1678382527418" duration="2864000" />
+      <workItem from="1678511908086" duration="962000" />
+      <workItem from="1679831368894" duration="1273000" />
+      <workItem from="1679987806474" duration="1833000" />
+      <workItem from="1680093804219" duration="2563000" />
+      <workItem from="1680171793271" duration="126000" />
+      <workItem from="1680180073615" duration="542000" />
+      <workItem from="1680258287552" duration="141000" />
+      <workItem from="1680391272436" duration="29000" />
+      <workItem from="1680391833990" duration="193000" />
+      <workItem from="1680439592366" duration="56000" />
+      <workItem from="1680439761911" duration="64000" />
+      <workItem from="1680452864820" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="MyService restructured">
       <created>1676290211599</created>
@@ -181,11 +200,64 @@
       <option name="project" value="LOCAL" />
       <updated>1676547756318</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="hot-fix keyboard comment">
+      <created>1676548067231</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676548067231</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added stack list options">
+      <created>1676548375534</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676548375534</updated>
+    </task>
+    <task id="LOCAL-00014" summary="changed db">
+      <created>1676549414131</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676549414131</updated>
+    </task>
+    <task id="LOCAL-00015" summary="updated keyboard stack">
+      <created>1676558578102</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676558578102</updated>
+    </task>
+    <task id="LOCAL-00016" summary="github address changed">
+      <created>1677512987211</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677512987211</updated>
+    </task>
+    <task id="LOCAL-00017" summary="cd updated">
+      <created>1678383065509</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678383065509</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -197,6 +269,12 @@
     <MESSAGE value="fixed git link" />
     <MESSAGE value="added keyboard app" />
     <MESSAGE value="added keyboard img, fixed list item height" />
-    <option name="LAST_COMMIT_MESSAGE" value="added keyboard img, fixed list item height" />
+    <MESSAGE value="hot-fix keyboard comment" />
+    <MESSAGE value="added stack list options" />
+    <MESSAGE value="changed db" />
+    <MESSAGE value="updated keyboard stack" />
+    <MESSAGE value="github address changed" />
+    <MESSAGE value="cd updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="cd updated" />
   </component>
 </project>
